@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -24,3 +25,9 @@ build
 *.sln
 *.sw?
 
+=======
+node_modules
+.env
+dist
+build
+>>>>>>> a4f8c755e50dc3e249289488e06f4b4fdc054b6e
