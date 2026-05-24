@@ -4,7 +4,8 @@ import { io } from "socket.io-client";
 import Navbar from "../components/Navbar";
 import { jwtDecode } from "jwt-decode";
 
-const socket = io("http://localhost:5000");
+// const socket = io("http://localhost:5000");
+const socket = io("https://smart-it-backend-production.up.railway.app");
 
 function Devices() {
   const token = localStorage.getItem("token");
