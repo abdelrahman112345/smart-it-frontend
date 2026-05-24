@@ -4,7 +4,7 @@ import axios from "axios";
 //   baseURL: "http://localhost:5000/api",
 // });
 const API = axios.create({
-  baseURL: "https://beautiful-embrace-production-9b05.up.railway.app/",
+  baseURL: "https://smart-it-backend-production.up.railway.app/",
 });
 
 // 🔥 إضافة Token تلقائي
